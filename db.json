@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "tester1",
+      "email": "test@test",
+      "name": "test",
+      "password": "test",
+      "createdAt": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "id": "ebdd7849-4fa7-41eb-8b3c-bb3642bc5479",
+      "username": "tester2",
+      "email": "test@test",
+      "name": "test",
+      "password": "test",
+      "createdAt": "2025-07-27T18:28:12.139Z"
+    }
+  ],
+  "likes": [
+    {
+      "id": "1",
+      "userId": "2",
+      "travelId": "1",
+      "createdAt": "2024-06-16T10:00:00.000Z"
+    },
+    {
+      "id": "1753640869309",
+      "userId": "1",
+      "travelId": "3aaa717c-f032-4165-8468-c815913f40f3",
+      "createdAt": "2025-07-27T18:27:49.309Z"
+    },
+    {
+      "id": "1753640900188",
+      "userId": "ebdd7849-4fa7-41eb-8b3c-bb3642bc5479",
+      "travelId": "1",
+      "createdAt": "2025-07-27T18:28:20.188Z"
+    },
+    {
+      "id": "1753640901021",
+      "userId": "ebdd7849-4fa7-41eb-8b3c-bb3642bc5479",
+      "travelId": "3aaa717c-f032-4165-8468-c815913f40f3",
+      "createdAt": "2025-07-27T18:28:21.021Z"
+    }
+  ],
+  "travels": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Путешествие в Санкт-Петербург",
+      "description": "Удивительная поездка в северную столицу России",
+      "location": {
+        "name": "Санкт-Петербург, Россия",
+        "coordinates": {
+          "lat": 59.9311,
+          "lng": 30.3609
+        }
+      },
+      "images": [
+        "https://main-cdn.sbermegamarket.ru/big1/hlr-system/172/556/467/912/447/600014633464b0.jpeg",
+        "https://vecherka.spb.ru/wp-content/uploads/2022/03/яяяяяяяяяяяяя-1.jpg"
+      ],
+      "cost": 25000,
+      "currency": "RUB",
+      "startDate": "2024-06-01",
+      "endDate": "2024-06-07",
+      "culturalSites": [
+        "Эрмитаж",
+        "Петропавловская крепость",
+        "Исаакиевский собор"
+      ],
+      "placesToVisit": [
+        "Невский проспект",
+        "Дворцовая площадь",
+        "Канал Грибоедова"
+      ],
+      "ratings": {
+        "transportation": 4,
+        "safety": 5,
+        "population": 3,
+        "nature": 3
+      },
+      "createdAt": "2024-06-15T12:00:00.000Z",
+      "updatedAt": "2024-06-15T12:00:00.000Z"
+    }
+  ]
+}

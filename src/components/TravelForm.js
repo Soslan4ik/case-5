@@ -239,12 +239,6 @@ const TravelForm = ({ travel, onSubmit, onCancel, currentUserId }) => {
           </select>
         </div>
       </div>
-
-      <div className="form-group">
-        <label className="form-label">Изображения</label>
-        <p className="form-hint">Вы можете загрузить до 5 изображений</p>
-      </div>
-
       <div className="form-group">
         <label className="form-label">Культурные места</label>
         {formData.culturalSites.map((site, index) => (
